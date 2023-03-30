@@ -1,0 +1,27 @@
+.aside {
+    text-align: start;
+    width: 280px;
+    padding: 52px;
+    border-right: 2px solid #e5e5e5;
+    h3 {
+        font-family: 'Anton', sans-serif;
+    }
+}
+h4 {
+    font-weight: 700;
+}
+@media screen and (max-width: 1200px) {
+    .aside {
+        width: 200px;
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+    .header {
+        height: 100px;
+    }
+}

@@ -1,0 +1,22 @@
+.buy--btn {
+    padding: 20px 70px;
+    border: none;
+    border-radius: 7px;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background-color: #4c4c4c;
+    box-shadow: 2px 2px 25px -7px #4c4c4c;
+    cursor: pointer;
+
+    &:hover {
+        border: 2px solid #000;
+        color: #000;
+        background-color: #fff;
+        transition: 1s all ease;
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+}

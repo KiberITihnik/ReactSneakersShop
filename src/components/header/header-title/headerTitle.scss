@@ -1,0 +1,36 @@
+.header-tittle {
+    display: flex;
+    align-items: center;
+
+    .img-header {
+        width: 280px;
+        height: 150px;
+        object-fit: cover;
+    }
+    h2 {
+        margin-left: 80px;
+        font-family: 'Anton', sans-serif;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header-tittle {
+        .img-header {
+            width: 200px;
+        }
+        h2 {
+            font-size: 40px;
+            margin-left: 60px;
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .header-tittle {
+        .img-header {
+            display: none;
+        }
+        h2 {
+            font-size: 30px;
+            margin-left: 60px;
+        }
+    }
+}

@@ -1,0 +1,156 @@
+[
+    {
+        "id": 0,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2019/02/air-jordan-4-white-black-pale-citron-308497-116-4.jpg",
+        "name": "Air Jordan 4",
+        "fullName": "Nike Air Jordan 4",
+        "sizes": [0, 1, 2],
+        "price": [330],
+        "category": {
+            "id": 0,
+            "name": "LIFESTYLE"
+        },
+        "rating": 1,
+        "color": [0]
+    },
+    {
+        "id": 1,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2019/06/nike-air-max-720-red-blue-black-cj0766-600-1.jpg",
+        "name": "Nike air max",
+        "fullName": "Nike air max 720",
+        "sizes": [0, 1, 2, 3],
+        "price": [650],
+        "category": {
+            "id": 1,
+            "name": "ORIGINAL"
+        },
+        "rating": 4,
+        "color": [1]
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://avatars.mds.yandex.net/i?id=4025d0cfa6f668d73148b99439e497fc_l-5447622-images-thumbs&n=13",
+        "name": "Air Jordan 1",
+        "fullName": "Nike Air Jordan 1 High",
+        "sizes": [0, 1],
+        "price": [780],
+        "category": {
+            "id": 2,
+            "name": "BASKETBALL"
+        },
+        "rating": 3,
+        "color": [5]
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://avatars.mds.yandex.net/i?id=a7a65926ecb1e48b00e8fc4a52f8c98f_l-5018061-images-thumbs&n=13",
+        "name": "Puma Clyde",
+        "fullName": "Puma Clyde",
+        "sizes": [0, 3],
+        "price": [540],
+        "category": {
+            "id": 3,
+            "name": "FOOTBALL"
+        },
+        "rating": 5,
+        "color": [5]
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2020/02/just-don-nike-air-force-1-high-CW3812-400-2.jpg",
+        "name": "Air Force 1",
+        "fullName": "Nike Air Force 1 High",
+        "sizes": [0, 2, 3],
+        "price": [390],
+        "category": {
+            "id": 4,
+            "name": "FOOTBALL"
+        },
+        "rating": 1,
+        "color": [3]
+    },
+    {
+        "id": 5,
+        "imageUrl": "https://houseofheat.co/app/uploads/2021/05/clot-sacai-nike-ldv-waffle-dh1347-100-release-date.jpg",
+        "name": "Nike Sacai",
+        "fullName": "Nike Sacai LDV Orange",
+        "sizes": [1, 2, 3],
+        "price": [460],
+        "category": {
+            "id": 5,
+            "name": "BASKETBALL"
+        },
+        "rating": 3,
+        "color": [4]
+    },
+    {
+        "id": 6,
+        "imageUrl": "https://houseofheat.co/app/uploads/2021/10/nike-sb-dunk-low-fog-bq6817-010-release-date-3.jpg",
+        "name": "Nike Dunk",
+        "fullName": "Nike Dunk Low Pro Fog",
+        "sizes": [0, 1, 2, 3],
+        "price": [520],
+        "category": {
+            "id": 6,
+            "name": "LIFESTYLE"
+        },
+        "rating": 2,
+        "color": [2]
+    },
+    {
+        "id": 7,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2020/09/nike-dm-s-x-blazer-mid-DC1746-100-6.jpg",
+        "name": "Nike Blazer",
+        "fullName": "Nike Blazer Mid 77 Infinite",
+        "sizes": [0],
+        "price": [610],
+        "category": {
+            "id": 7,
+            "name": "ORIGINAL"
+        },
+        "rating": 2,
+        "color": [0]
+    },
+    {
+        "id": 8,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2018/10/nike-air-max-95-black-purple-538416-021-2.jpg",
+        "name": "Nike Air Max",
+        "fullName": "Nike Air Max 95",
+        "sizes": [0, 2, 3],
+        "price": [450],
+        "category": {
+            "id": 8,
+            "name": "LIFESTYLE"
+        },
+        "rating": 5,
+        "color": [0]
+    },
+    {
+        "id": 9,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2018/09/nike-air-max-90-AJ1285-102-1.jpg",
+        "name": "Nike Air Max",
+        "fullName": "Nike Air Max 90",
+        "sizes": [1, 2, 3],
+        "price": [440],
+        "category": {
+            "id": 9,
+            "name": "ORIGINAL"
+        },
+        "rating": 1,
+        "color": [6]
+    },
+    {
+        "id": 10,
+        "imageUrl": "https://cdn.weartesters.com/wp-content/uploads/2014/11/Air-Jordan-8-Doernbecher-Officially-Unveiled7.jpeg",
+        "name": "Air Jordan",
+        "fullName": "Air Jordan 8 Retro",
+        "sizes": [0, 1, 2, 3],
+        "price": [680],
+        "category": {
+            "id": 10,
+            "name": "ORIGINAL"
+        },
+        "rating": 11,
+        "color": [2]
+    }
+]

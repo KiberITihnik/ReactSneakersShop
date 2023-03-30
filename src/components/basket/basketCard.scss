@@ -1,0 +1,43 @@
+.basket-card {
+    display: flex;
+    justify-content: center;
+
+    .basket-info {
+        margin-left: 30px;
+        .info-up {
+            display: flex;
+            margin-bottom: 70px;
+            justify-content: space-between;
+            .info-title {
+                padding-right: 200px;
+            }
+        }
+        .info-down {
+            display: flex;
+
+            justify-content: space-between;
+            .quantity-filter {
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                border-radius: 8px;
+                border: 2px solid #4c4c4c;
+                justify-content: space-between;
+                width: 30%;
+
+                .button-minus {
+                    padding: 10px 20px;
+                    border-radius: 8px 0px 0px 8px;
+                    cursor: pointer;
+                }
+
+                .button-plus {
+                    padding: 10px 20px;
+                    border-radius: 0px 8px 8px 0px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

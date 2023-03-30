@@ -1,0 +1,36 @@
+.header-filters,
+.filter-sort {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-filters {
+    position: relative;
+    margin-right: 50px;
+    cursor: pointer;
+
+    .sort-active {
+        position: absolute;
+        cursor: pointer;
+        top: 50px;
+        left: -50px;
+        border-radius: 10px;
+        padding: 20px;
+        background: #fff;
+        box-shadow: -10px -10px 15px rgba(210, 210, 210, 0.5),
+            10px 10px 15px rgba(38, 38, 38, 0.427);
+
+        li {
+            color: #606060;
+
+            &:hover {
+                color: #000;
+                transition: 300ms ease-in;
+            }
+            &.active {
+                text-decoration: underline;
+                color: #000;
+            }
+        }
+    }
+}

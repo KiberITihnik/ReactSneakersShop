@@ -1,0 +1,98 @@
+$color-primary: #4c4c4c;
+$color-secondary: #a6a6a6;
+$color-highlight: #ff3f40;
+
+/* ----- Product Section ----- */
+.product {
+    display: flex;
+    margin: 50px 80px;
+    height: 600px;
+}
+
+/* ----- Photo Section ----- */
+.product__photo {
+    .photo-container {
+        width: 400px;
+        height: 530px;
+        border-radius: 6px;
+        box-shadow: -10px -10px 15px rgba(210, 210, 210, 0.5),
+            10px 10px 15px rgba(38, 38, 38, 0.427);
+    }
+    .photo-main {
+        border-radius: 6px 6px 0 0;
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            padding: 16px;
+
+            color: #fff;
+
+            svg {
+                cursor: pointer;
+            }
+        }
+
+        img {
+            filter: saturate(150%) contrast(120%) hue-rotate(10deg)
+                drop-shadow(1px 20px 10px rgba(0, 0, 0, 0.3));
+        }
+    }
+
+    .photo-album {
+        margin-top: 30px;
+        padding: 10px 20px;
+
+        background-color: #fff;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        li {
+            width: 70px;
+            height: 70px;
+        }
+    }
+}
+
+/* ----- Informations Section ----- */
+.product__info {
+    text-align: left;
+    padding: 0px 50px;
+
+    .title {
+        span {
+            color: $color-secondary;
+        }
+    }
+
+    .price {
+        color: $color-highlight;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .card-subtitles {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 10px 20px 30px 0px;
+        .card-size-sneakers-child {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 2px solid #e5e5e5;
+            border-radius: 10px;
+            color: #e5e5e5;
+
+            &:hover {
+                color: #000;
+                border: 2px solid #000;
+                transition: 1s all ease;
+            }
+        }
+    }
+}
