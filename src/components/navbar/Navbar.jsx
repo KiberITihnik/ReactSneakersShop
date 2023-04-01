@@ -110,7 +110,7 @@ const Navbar = () => {
                     </span>
                     <input type="search" id="search" placeholder="Search..." />
                 </div>
-                <NavLink className="icon-navbar">
+                <NavLink to={ROUTES.LOGIN} className="icon-navbar">
                     <svg
                         version="1.0"
                         xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +137,7 @@ const Navbar = () => {
                         </g>
                     </svg>
                 </NavLink>
-                <NavLink to={ROUTES.BASKET} className="icon-navbar">
+                <NavLink to={ROUTES.CART} className="icon-navbar">
                     <svg
                         version="1.0"
                         xmlns="http://www.w3.org/2000/svg"

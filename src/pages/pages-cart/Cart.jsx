@@ -1,27 +1,27 @@
 import React from 'react';
-import './basket.scss';
-import BtnBasket from '../../components/btn-basket/BtnBasket';
-import BasketCard from '../../components/basket/BasketCard';
+import './cart.scss';
+import BtnCart from '../../components/btn-cart/BtnCart';
+import CartCard from '../../components/cart/CartCard';
 
-const Basket = () => {
+const Cart = () => {
     return (
         <div>
             <main className="section">
-                <section className="basket">
-                    <h3 className="basket-title">
+                <section className="cart">
+                    <h3 className="cart-title">
                         Your shopping cart, <span>4 товара</span>
                     </h3>
-                    <div className="basket-center">
-                        <div className="basket-cards">
-                            <BasketCard />
+                    <div className="cart-center">
+                        <div className="cart-cards">
+                            <CartCard />
                         </div>
-                        <div className="basket-right">
+                        <div className="cart-right">
                             <h3>Order sum</h3>
                             <div>
                                 <h4 className="value"></h4>
                                 <h4 className="total-value"></h4>
                             </div>
-                            <BtnBasket />
+                            <BtnCart />
                         </div>
                     </div>
                 </section>
@@ -30,4 +30,4 @@ const Basket = () => {
     );
 };
 
-export default Basket;
+export default Cart;

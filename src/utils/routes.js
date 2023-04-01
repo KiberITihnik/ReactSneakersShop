@@ -5,6 +5,9 @@ export const ROUTES = {
     KIDS: '/kids',
     CUSTOMIZE: '/customize',
     FAVORITES: '/favorites',
-    BASKET: '/Basket',
+    CART: '/Cart',
     CARD: '/linkCard',
+    HOME_PAGE: '/home',
+    LOGIN: '/login',
+    REGISTER: '/register',
 };

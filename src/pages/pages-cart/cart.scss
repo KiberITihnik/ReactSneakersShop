@@ -1,16 +1,16 @@
-.basket {
+.cart {
     height: 100vh;
     margin: 20px;
     text-align: start;
     padding: 50px;
     border-radius: 20px;
 
-    .basket-center {
+    .cart-center {
         display: flex;
         justify-content: space-between;
         margin-top: 30px;
 
-        .basket-cards {
+        .cart-cards {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,7 +21,7 @@
                 10px 10px 15px rgba(38, 38, 38, 0.427);
         }
 
-        .basket-right {
+        .cart-right {
             border-radius: 20px;
             padding: 50px;
             box-shadow: -10px -10px 15px rgba(210, 210, 210, 0.5),

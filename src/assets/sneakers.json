@@ -6,9 +6,8 @@
         "fullName": "Nike Air Jordan 4",
         "sizes": [0, 1, 2],
         "price": [330],
-        "category": {
-            "id": 0,
-            "name": "LIFESTYLE"
+        "categoryId": {
+            "id": 1
         },
         "rating": 1,
         "color": [0]
@@ -20,10 +19,7 @@
         "fullName": "Nike air max 720",
         "sizes": [0, 1, 2, 3],
         "price": [650],
-        "category": {
-            "id": 1,
-            "name": "ORIGINAL"
-        },
+        "categoryId": 1,
         "rating": 4,
         "color": [1]
     },
@@ -34,10 +30,7 @@
         "fullName": "Nike Air Jordan 1 High",
         "sizes": [0, 1],
         "price": [780],
-        "category": {
-            "id": 2,
-            "name": "BASKETBALL"
-        },
+        "categoryId": 3,
         "rating": 3,
         "color": [5]
     },
@@ -48,10 +41,7 @@
         "fullName": "Puma Clyde",
         "sizes": [0, 3],
         "price": [540],
-        "category": {
-            "id": 3,
-            "name": "FOOTBALL"
-        },
+        "categoryId": 2,
         "rating": 5,
         "color": [5]
     },
@@ -62,10 +52,7 @@
         "fullName": "Nike Air Force 1 High",
         "sizes": [0, 2, 3],
         "price": [390],
-        "category": {
-            "id": 4,
-            "name": "FOOTBALL"
-        },
+        "categoryId": 0,
         "rating": 1,
         "color": [3]
     },
@@ -76,10 +63,7 @@
         "fullName": "Nike Sacai LDV Orange",
         "sizes": [1, 2, 3],
         "price": [460],
-        "category": {
-            "id": 5,
-            "name": "BASKETBALL"
-        },
+        "categoryId": 1,
         "rating": 3,
         "color": [4]
     },
@@ -90,10 +74,7 @@
         "fullName": "Nike Dunk Low Pro Fog",
         "sizes": [0, 1, 2, 3],
         "price": [520],
-        "category": {
-            "id": 6,
-            "name": "LIFESTYLE"
-        },
+        "categoryId": 2,
         "rating": 2,
         "color": [2]
     },
@@ -104,10 +85,7 @@
         "fullName": "Nike Blazer Mid 77 Infinite",
         "sizes": [0],
         "price": [610],
-        "category": {
-            "id": 7,
-            "name": "ORIGINAL"
-        },
+        "categoryId": 3,
         "rating": 2,
         "color": [0]
     },
@@ -118,10 +96,7 @@
         "fullName": "Nike Air Max 95",
         "sizes": [0, 2, 3],
         "price": [450],
-        "category": {
-            "id": 8,
-            "name": "LIFESTYLE"
-        },
+        "categoryId": 3,
         "rating": 5,
         "color": [0]
     },
@@ -132,10 +107,7 @@
         "fullName": "Nike Air Max 90",
         "sizes": [1, 2, 3],
         "price": [440],
-        "category": {
-            "id": 9,
-            "name": "ORIGINAL"
-        },
+        "categoryId": 0,
         "rating": 1,
         "color": [6]
     },
@@ -146,10 +118,7 @@
         "fullName": "Air Jordan 8 Retro",
         "sizes": [0, 1, 2, 3],
         "price": [680],
-        "category": {
-            "id": 10,
-            "name": "ORIGINAL"
-        },
+        "categoryId": 1,
         "rating": 11,
         "color": [2]
     }

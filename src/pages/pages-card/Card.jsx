@@ -66,10 +66,10 @@ const Card = () => {
                     <div className="variant">
                         <h3>SELECT A COLOR</h3>
                         <ul>
-                            <li variant-color></li>
-                            <li variant-color></li>
-                            <li variant-color></li>
-                            <li variant-color></li>
+                            <li className="variant-color"></li>
+                            <li className="variant-color"></li>
+                            <li className="variant-color"></li>
+                            <li className="variant-color"></li>
                         </ul>
                     </div>
                     <ul className="card-subtitles">

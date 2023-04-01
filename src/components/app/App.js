@@ -10,8 +10,11 @@ import Women from '../../pages/pages-navbar/Women';
 
 import ScrollToTop from '../../utils/scrollToTop';
 import Card from '../../pages/pages-card/Card';
-import Basket from '../../pages/pages-basket/Basket';
+import Cart from '../../pages/pages-cart/Cart';
 import { ROUTES } from '../../utils/routes';
+import HomePage from '../../pages/pages-user/HomePage';
+import LoginPage from '../../pages/pages-user/LoginPage';
+import RegisterPage from '../../pages/pages-user/RegisterPage';
 
 function App() {
     return (
@@ -25,7 +28,10 @@ function App() {
                     <Route path={ROUTES.MEN} element={<Men />} />
                     <Route path={ROUTES.WOMEN} element={<Women />} />
                     <Route path={ROUTES.CARD} element={<Card />} />
-                    <Route path={ROUTES.BASKET} element={<Basket />} />
+                    <Route path={ROUTES.CART} element={<Cart />} />
+                    <Route path={ROUTES.HOME_PAGE} element={<HomePage />} />
+                    <Route path={ROUTES.LOGIN} element={<LoginPage />} />
+                    <Route path={ROUTES.REGISTER} element={<RegisterPage />} />
                 </Routes>
 
                 <Footer />

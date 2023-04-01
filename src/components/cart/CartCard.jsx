@@ -1,21 +1,21 @@
 import React from 'react';
-import './basketCard.scss';
-import ImgBasket from '../../img/cards/nike.jpg';
+import './cartCard.scss';
+import ImgCart from '../../img/cards/nike.jpg';
 
-const BasketCard = () => {
+const CartCard = () => {
     return (
-        <div className="basket-card">
-            <div className="basket-card-img">
-                <img src={ImgBasket} alt="" width={150} />
+        <div className="cart-card">
+            <div className="cart-card-img">
+                <img src={ImgCart} alt="" width={150} />
             </div>
-            <div className="basket-info">
+            <div className="cart-info">
                 <div className="info-up">
                     <h3 className="info-title">Nike Air Jordan 4</h3>
                     <div className="info-icon">Delete</div>
                 </div>
                 <div className="info-down">
                     <div className="quantity-filter">
-                        <div class="button-minus">
+                        <div className="button-minus">
                             <svg
                                 className="minus"
                                 width="10"
@@ -35,7 +35,7 @@ const BasketCard = () => {
                             </svg>
                         </div>
                         <b>2</b>
-                        <div class="button-plus">
+                        <div className="button-plus">
                             <svg
                                 className="plus"
                                 width="10"
@@ -61,4 +61,4 @@ const BasketCard = () => {
     );
 };
 
-export default BasketCard;
+export default CartCard;

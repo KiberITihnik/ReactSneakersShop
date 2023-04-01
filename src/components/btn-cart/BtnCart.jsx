@@ -1,7 +1,7 @@
 import React from 'react';
-import './btnBasket.scss';
+import './btnCart.scss';
 
-const BtnBasket = () => {
+const BtnCart = () => {
     return (
         <div>
             <button className="buy--btn">PLACE AN ORDER</button>
@@ -9,4 +9,4 @@ const BtnBasket = () => {
     );
 };
 
-export default BtnBasket;
+export default BtnCart;

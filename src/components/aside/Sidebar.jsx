@@ -1,13 +1,13 @@
 import { useDispatch, useSelector } from 'react-redux';
 
-import { setCategoryId } from '../../redux/filter/filterSlice';
+import { setCategoryId } from '../../redux/slices/filterSlice';
 
-import './aside.scss';
+import './sidebar.scss';
 import Categories from './categories/Categories';
 import ColorFilter from './color-filter/ColorFilter';
 import FilterPrice from './filter/FilterPrice';
 
-const Aside = () => {
+const Sidebar = () => {
     const dispatch = useDispatch();
     const categoryId = useSelector((state) => state.filter.categoryId);
 
@@ -16,7 +16,7 @@ const Aside = () => {
     };
 
     return (
-        <div className="aside">
+        <div className="sidebar">
             <Categories value={categoryId} onChangeCategory={onChangeCategory} />
             <FilterPrice onChange={({ min, max }) => console.log(`min = ${min}, max = ${max}`)} />
             <ColorFilter />
@@ -24,4 +24,4 @@ const Aside = () => {
     );
 };
 
-export default Aside;
+export default Sidebar;

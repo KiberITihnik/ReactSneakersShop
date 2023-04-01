@@ -1,0 +1,8 @@
+.login {
+    width: 50%;
+    margin: 112px auto;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: -10px -10px 15px rgb(210 210 210 / 50%), 10px 10px 15px rgb(38 38 38 / 43%);
+    font-size: 15px;
+}

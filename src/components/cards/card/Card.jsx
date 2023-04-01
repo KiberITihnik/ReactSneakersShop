@@ -18,8 +18,9 @@ const Card = ({ ImgCard, name, price, sizes }) => {
             </div>
             <div className="card-down">
                 <ul className="card-subtitles">
-                    {sizes.map((sizeId) => (
+                    {sizes.map((sizeId, id) => (
                         <li
+                            key={id}
                             onClick={() => setActiveSize(sizeId)}
                             className={activeSize === sizeId ? 'active' : ''}>
                             {typeSizes[sizeId]}
