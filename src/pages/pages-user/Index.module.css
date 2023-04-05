@@ -1,8 +1,55 @@
-.login {
+.loginPage {
     width: 50%;
     margin: 112px auto;
     border-radius: 20px;
     padding: 50px;
     box-shadow: -10px -10px 15px rgb(210 210 210 / 50%), 10px 10px 15px rgb(38 38 38 / 43%);
     font-size: 15px;
+}
+.login {
+    font-size: 22px;
+}
+
+.input {
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: -3px -3px 5px rgb(210 210 210 / 50%), 3px 3px 5px rgb(38 38 38 / 43%);
+}
+.input:hover {
+    border: 2px solid #4c4c4c;
+    transition: all 0.5s ease;
+}
+.input:focus {
+    background-color: #eeeeee;
+    border-color: #000;
+}
+input:focus::placeholder {
+    transform: translateX(10px);
+}
+.hint {
+    text-align: left;
+    color: #ff3f40;
+}
+.btn {
+    margin-top: 30px;
+    border: 2px solid #e5e5e5;
+    border-radius: 6px;
+    padding: 10px 40px;
+    box-shadow: -3px -3px 5px rgb(210 210 210 / 50%), 3px 3px 5px rgb(38 38 38 / 43%);
+}
+.btn:hover {
+    background-color: #4c4c4c;
+    border: none;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.btn:active {
+    background-color: #4c4c4c;
+    border: none;
+    color: #ffffff;
+    transform: scale(0.8);
 }

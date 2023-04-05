@@ -3,7 +3,7 @@ import React from 'react';
 import './categories.scss';
 
 const Categories = ({ value, onChangeCategory }) => {
-    const categories = ['LIFESTYLE', 'ORIGINAL', 'BASKETBALL', 'FOOTBALL'];
+    const categories = ['ALL CATEGORIES', 'LIFESTYLE', 'ORIGINAL', 'BASKETBALL', 'FOOTBALL'];
 
     return (
         <div className="categories">

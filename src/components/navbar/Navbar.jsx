@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { ROUTES } from '../../utils/routes';
 
 import './navbar.scss';
+import Search from './Search';
 
 const Navbar = () => {
     const activeLink = 'nav-list__link nav-list__link--active';
@@ -92,24 +93,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="nav-row-right">
-                <div className="search">
-                    <span className="icon">
-                        <svg
-                            width="30"
-                            height="30"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                            strokeLinejoin="round">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                    </span>
-                    <input type="search" id="search" placeholder="Search..." />
-                </div>
+                <Search />
                 <NavLink to={ROUTES.LOGIN} className="icon-navbar">
                     <svg
                         version="1.0"

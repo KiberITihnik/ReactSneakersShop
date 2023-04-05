@@ -1,8 +1,10 @@
 import React from 'react';
 import ContentLoader from 'react-content-loader';
+import styles from './Skeleton.module.scss';
 
 const Skeleton = () => (
     <ContentLoader
+        className={styles.skeleton}
         speed={2}
         width={300}
         height={425}

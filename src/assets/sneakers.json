@@ -5,10 +5,8 @@
         "name": "Air Jordan 4",
         "fullName": "Nike Air Jordan 4",
         "sizes": [0, 1, 2],
-        "price": [330],
-        "categoryId": {
-            "id": 1
-        },
+        "price": 330,
+        "categoryId": 4,
         "rating": 1,
         "color": [0]
     },
@@ -18,7 +16,7 @@
         "name": "Nike air max",
         "fullName": "Nike air max 720",
         "sizes": [0, 1, 2, 3],
-        "price": [650],
+        "price": 650,
         "categoryId": 1,
         "rating": 4,
         "color": [1]
@@ -29,7 +27,7 @@
         "name": "Air Jordan 1",
         "fullName": "Nike Air Jordan 1 High",
         "sizes": [0, 1],
-        "price": [780],
+        "price": 780,
         "categoryId": 3,
         "rating": 3,
         "color": [5]
@@ -40,8 +38,8 @@
         "name": "Puma Clyde",
         "fullName": "Puma Clyde",
         "sizes": [0, 3],
-        "price": [540],
-        "categoryId": 2,
+        "price": 540,
+        "categoryId": 4,
         "rating": 5,
         "color": [5]
     },
@@ -51,8 +49,8 @@
         "name": "Air Force 1",
         "fullName": "Nike Air Force 1 High",
         "sizes": [0, 2, 3],
-        "price": [390],
-        "categoryId": 0,
+        "price": 390,
+        "categoryId": 1,
         "rating": 1,
         "color": [3]
     },
@@ -62,7 +60,7 @@
         "name": "Nike Sacai",
         "fullName": "Nike Sacai LDV Orange",
         "sizes": [1, 2, 3],
-        "price": [460],
+        "price": 460,
         "categoryId": 1,
         "rating": 3,
         "color": [4]
@@ -73,7 +71,7 @@
         "name": "Nike Dunk",
         "fullName": "Nike Dunk Low Pro Fog",
         "sizes": [0, 1, 2, 3],
-        "price": [520],
+        "price": 520,
         "categoryId": 2,
         "rating": 2,
         "color": [2]
@@ -84,7 +82,7 @@
         "name": "Nike Blazer",
         "fullName": "Nike Blazer Mid 77 Infinite",
         "sizes": [0],
-        "price": [610],
+        "price": 610,
         "categoryId": 3,
         "rating": 2,
         "color": [0]
@@ -95,7 +93,7 @@
         "name": "Nike Air Max",
         "fullName": "Nike Air Max 95",
         "sizes": [0, 2, 3],
-        "price": [450],
+        "price": 450,
         "categoryId": 3,
         "rating": 5,
         "color": [0]
@@ -106,8 +104,8 @@
         "name": "Nike Air Max",
         "fullName": "Nike Air Max 90",
         "sizes": [1, 2, 3],
-        "price": [440],
-        "categoryId": 0,
+        "price": 440,
+        "categoryId": 1,
         "rating": 1,
         "color": [6]
     },
@@ -117,7 +115,128 @@
         "name": "Air Jordan",
         "fullName": "Air Jordan 8 Retro",
         "sizes": [0, 1, 2, 3],
-        "price": [680],
+        "price": 680,
+        "categoryId": 4,
+        "rating": 11,
+        "color": [2]
+    },
+    {
+        "id": 11,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2022/01/Nike-Offline-Pack-Wool-0.png",
+        "name": "Nike Offline",
+        "fullName": "Nike Offline 3.0",
+        "sizes": [0, 1, 2],
+        "price": 348,
+        "categoryId": 4,
+        "rating": 1,
+        "color": [0]
+    },
+    {
+        "id": 12,
+        "imageUrl": "https://res.cloudinary.com/shelflife-cloud/image/upload/if_w_gt_1392,w_1392,q_auto:eco/v1575961299/editoruploads/rvwnuzwaqfrwnqvpgvit.jpg",
+        "name": "Air Jordan 13",
+        "fullName": "Air Jordan 13 Retro Hyper Royal",
+        "sizes": [0, 1, 2, 3],
+        "price": 980,
+        "categoryId": 2,
+        "rating": 4,
+        "color": [1]
+    },
+    {
+        "id": 13,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2020/12/nike-blazer-mid-77-roswell-rayguns-DD9239-100-7.jpg",
+        "name": "Nike Blazer",
+        "fullName": "Nike Blazer Mid 77 GS",
+        "sizes": [0, 1],
+        "price": 310,
+        "categoryId": 1,
+        "rating": 3,
+        "color": [5]
+    },
+    {
+        "id": 14,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2021/04/reebok-pump-omni-zone-ii-white-g57540-2-1.jpg",
+        "name": "Reebok Pump",
+        "fullName": "Reebok Pump Omni Zone II White Orange",
+        "sizes": [0, 3],
+        "price": 120,
+        "categoryId": 3,
+        "rating": 5,
+        "color": [5]
+    },
+    {
+        "id": 15,
+        "imageUrl": "https://cdn.sanity.io/images/c1chvb1i/production/d94e68d71a5f5293c1aebf4d0a92aa4beab2cf01-2000x1333.jpg/kerwin-shoes-2.jpg",
+        "name": "Adidas",
+        "fullName": "Adidas x Kerwin Frost",
+        "sizes": [0, 2, 3],
+        "price": 573,
+        "categoryId": 4,
+        "rating": 1,
+        "color": [3]
+    },
+    {
+        "id": 16,
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0214/7974/files/Adidas_ZX_8000_Lego_BLOG-1_2048x2048.jpg",
+        "name": "Adidas ZX",
+        "fullName": "Adidas ZX 8000 LEGO",
+        "sizes": [1, 2, 3],
+        "price": 517,
+        "categoryId": 1,
+        "rating": 3,
+        "color": [4]
+    },
+    {
+        "id": 17,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2018/07/parra-nike-air-max-1-release-info1.jpg",
+        "name": "Nike Air Max",
+        "fullName": "Nike x Parra Air Max",
+        "sizes": [0, 1, 2, 3],
+        "price": 420,
+        "categoryId": 2,
+        "rating": 2,
+        "color": [2]
+    },
+    {
+        "id": 18,
+        "imageUrl": "https://wylsa.com/wp-content/uploads/2020/05/nike-dunk1.jpg",
+        "name": "Nike SB",
+        "fullName": "Nike SB Dunk Low",
+        "sizes": [0],
+        "price": 647,
+        "categoryId": 3,
+        "rating": 2,
+        "color": [0]
+    },
+    {
+        "id": 19,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2021/02/readymade-nike-blazer-white-CZ3589-100-7.jpg",
+        "name": "Nike Blazer",
+        "fullName": "Nike Blazer Readymade",
+        "sizes": [0, 2, 3],
+        "price": 450,
+        "categoryId": 4,
+        "rating": 5,
+        "color": [0]
+    },
+    {
+        "id": 20,
+        "imageUrl": "https://sneakernews.com/wp-content/uploads/2020/09/off-white-nike-rubber-dunk-black-green-cu6015-001-6.jpg",
+        "name": "Nike Dunk",
+        "fullName": "Nike Air Rubber Dunk off-White Green Strike",
+        "sizes": [1, 2, 3],
+        "price": 883,
+        "categoryId": 1,
+        "rating": 1,
+        "color": [6]
+    },
+    {
+        "id": 21,
+        "imageUrl": "https://www.kicksonfire.com/wp-content/uploads/2021/12/KAWS-x-sacai-x-Nike-Blazer-Low-Purple-Dusk-DM7901-500.jpg",
+        "name": "Nike Blaze",
+        "fullName": "Nike Blaze KAWS",
+        "sizes": [0, 1, 2, 3],
+        "price": 999,
         "categoryId": 1,
         "rating": 11,
         "color": [2]

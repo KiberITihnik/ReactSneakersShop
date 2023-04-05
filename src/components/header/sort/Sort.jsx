@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { setSort } from '../../../redux/slices/filterSlice';
 import './sort.scss';
 
 const Sort = () => {
@@ -7,7 +8,6 @@ const Sort = () => {
     const sort = useSelector((state) => state.filter.sort);
 
     const [open, setOpen] = React.useState(false);
-    const [rotate, setRotate] = React.useState(false);
 
     const list = [
         { name: 'By popularity', sortProperty: 'rating' },
@@ -17,7 +17,7 @@ const Sort = () => {
     ];
 
     const onClickListItem = (i) => {
-        // onChangeSort(i);
+        dispatch(setSort(i));
         setOpen(false);
     };
 
@@ -26,7 +26,7 @@ const Sort = () => {
             <div className="filter-sort" onClick={() => setOpen(!open)}>
                 <h4>SORT BY</h4>
                 <svg
-                    onClick={() => setRotate(!rotate)}
+                    onClick={() => setOpen(!open)}
                     className="offset-filters"
                     fill="#000000"
                     width="30px"
@@ -38,12 +38,12 @@ const Sort = () => {
             {open && (
                 <div className="sort-active">
                     <ul>
-                        {list.map((name, i) => (
+                        {list.map((obj, i) => (
                             <li
                                 key={i}
-                                onClick={() => onClickListItem(name)}
-                                className={sort.sortProperty === name.sortProperty ? 'active' : ''}>
-                                <h4>{name}</h4>
+                                onClick={() => onClickListItem(obj)}
+                                className={sort.sortProperty === obj.sortProperty ? 'active' : ''}>
+                                <h4>{obj.name}</h4>
                             </li>
                         ))}
                     </ul>
